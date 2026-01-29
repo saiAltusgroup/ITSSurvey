@@ -107,6 +107,7 @@ if ($_POST)
 // display the review page
 if ($action == 'review')
 {
+	// Dummy checkin
 	       $sheet=$form->FindSheet('sheet_1');
 
 	       $formwizard->SetActiveStep(_FW_REVIEW_ALLSTEPS_CHANGE);
