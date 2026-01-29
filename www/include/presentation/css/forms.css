@@ -1,0 +1,14 @@
+.userform_table
+{
+	background-color: #000000;
+	border-spacing: 1px;
+}
+.userform_table td
+{
+	background-color: #ffffff;
+	padding: 5px;
+}
+.required_field
+{
+	color: #ff0000;
+}

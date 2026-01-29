@@ -1,0 +1,287 @@
+html, body
+{
+	color: #000000;
+	background-color: #f7f7f7;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	font-size: 100%; /* this seems to correct a text-size scaling bug in IE6Win */
+}
+
+a
+{
+	color: #522F92;
+}
+
+a:active
+{
+	color: #880000;
+}
+
+h1 {
+	margin: 0 0 0 0;
+	padding: 0;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-bottom: 0.5em;
+	color: #006313;
+	border-bottom: dotted thin #006313;
+}
+
+
+h2
+{
+	color: #663399;
+	margin: 0;
+	padding: 0;
+	padding-top: 0.5em;
+}
+
+hr
+{
+	border: 0;
+	height: 1px;
+	color: #006313;
+	background-color: #006313;
+}
+
+.mainlayout
+{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+}
+
+.content
+{
+	margin: 1em;
+}
+
+.stationary
+{
+	background: url(../images/head.jpg);
+	height: 80px;
+	padding-right: 20px;
+	text-align: right;
+	position: relative;
+}
+
+
+
+.fineprint
+{
+	font-size: 0.6em;
+	text-align: center;
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+}
+
+.navheader
+{
+	font-size: 0.7em;
+	font-weight: bold;
+	color: #ffffff;
+	margin-bottom: 3px;
+	bottom: 0px;
+	right: 20px;
+	position: absolute;
+}
+
+.navheader a
+{
+	color: #d4d4d4;
+	text-decoration: none;
+}
+
+.navheader a:hover
+{
+	color: #d4d4d4;
+	text-decoration: underline;
+}
+
+.navheader a:focus
+{
+	color: #d4d4d4;
+	text-decoration: underline;
+}
+
+.navheader a:active
+{
+	color: #eeeeee;
+	text-decoration: underline;
+}
+
+.quickselect_head
+{
+	color: #333333;
+	font-size: 0.6em;
+}
+
+fieldset
+{
+	margin-top: 1em;
+	background-color: #eeeeee;
+
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+	padding-top: 0.2em;
+	padding-bottom: 0.5em;
+}
+
+legend
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+
+form
+{
+	margin: 0;
+	padding: 0;
+}
+
+
+form.fa_active_form .quickselect_digits
+{
+	width: 45px;
+}
+
+form.fa_review_form .quickselect_digits
+{
+	visibility: hidden;
+}
+
+form.fa_review_form .quickselect_head
+{
+	visibility: hidden;
+}
+
+form.fa_active_form ul li
+{
+	list-style-type: none;
+	display: inline;
+	padding-right: 1.0em;
+}
+
+form.fa_active_form .descr ul li
+{
+	list-style-type: disc;
+	display: list-item;
+	padding-right: 0.0em;
+}
+
+form.fa_user_form .td_cell_2
+{
+	width: 65%;
+	border: none;
+	background-color: #eeeeee;
+	font-weight: normal;
+}
+
+form.fa_user_form .td_cell_1
+{
+	width: 35%;
+}
+
+.error
+{
+	color: #ff0000;
+}
+
+.descr, #div_login_instructions
+{
+	font-size: 0.82em;
+	background-color: #f2f2ef;
+	border: 2px dotted #bbbbbb;
+	padding-left: 0.7em;
+	padding-right: 0.7em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+.td_cell_1
+{
+	width: 50%;
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
+
+.td_cell_2
+{
+	width: 50%;
+	border: 1px solid #999999;
+	font-weight: bold;
+	font-size: 0.9em;
+	background-color: #ffffff;
+	padding: 0.5em;
+}
+
+.td_cell_2 ul
+{
+	margin: 0em;
+	padding-left: 1em;
+}
+
+.matrix
+{
+	width: 100%;
+	background-color: #f8f8f8;
+	border-collapse: collapse;
+	border: 2px outset #000000;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.matrix tr, .matrix td, .matrix th
+{
+	border:1px solid #000000;
+	padding:0.4em;
+	/*margin:0.2em;*/
+}
+
+.matrix th
+{
+	background: #e8e8e8
+}
+
+.example
+{
+	color: #006313;
+}
+
+
+#div_login_instructions
+{
+	margin-bottom: 1em;
+}
+
+#div_password
+{
+	margin-bottom: -0.5em;
+}
+
+#index_ul li
+{
+	margin-bottom: 0.75em;
+}
+
+#admin_table, .admin_table
+{
+	background-color: #000000;
+}
+
+#admin_table tr, .admin_table tr
+{
+	background-color: #ffffff;
+}
+
+#admin_table th, .admin_table th
+{
+	background-color: #cccccc;
+}

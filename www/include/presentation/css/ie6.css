@@ -1,0 +1,19 @@
+body {behavior: url(/include/presentation/css/behavior/csshover.htc); }
+img, div{ behavior: url(/include/presentation/css/behavior/iepngfix.htc); }
+@import url('blueprint/ie.css');
+div#Panel1 {
+	margin-left:155px;
+	height:80em;
+}
+div#Panel2 div#FreeTools a{ padding-bottom:0; }
+div#Panel2 div#SideMenu{ width:135px; }
+div#Panel2 div#SideMenu a{ padding-bottom:0;  }
+div.imageholder{ margin-bottom:1em; }
+div.imageholder div.captionedimage{
+	text-align:center;
+	width:20%;
+	font-size:0.9em;
+	float:left;
+	margin:0 1em;
+}
+div#About table{ width:99%; }

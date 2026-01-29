@@ -1,0 +1,8 @@
+body.industrial div#Head{ background-image: url('/image/common/head/bg_industrial.jpg'); }
+body.industrial div#Head.home{ background-image: url('/image/common/head/bg_home_industrial.jpg'); }
+/*body.investment div#Head{ background-image: url('/image/common/head/bg_investment.jpg'); }*/
+body.investment div#Head.home{ background-image: url('/image/common/head/bg_home_investment.jpg'); }
+body.office div#Head.home{ background-image: url('/image/common/head/bg_home_office.jpg'); }
+body.office div#Head{ background-image: url('/image/common/head/bg_office.jpg'); }
+body.retail div#Head{ background-image: url('/image/common/head/bg_retail.jpg'); }
+body.retail div#Head.home{ background-image: url('/image/common/head/bg_home_retail.jpg'); }

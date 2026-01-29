@@ -1,0 +1,177 @@
+div#Head{
+	position:relative;
+	height:80px;
+	/*background-color:#21557D;
+	background-position:top left;
+	background-repeat:no-repeat;*/
+	background:url(/images/tmpl/bg_header.jpg) 100% 0 repeat-y;
+	border-bottom:1px solid #acc4d4;
+}
+div#Head.home{ height:130px; }
+div#Head.home object{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1;
+}
+div#Head img#Logo{
+	position: absolute;
+	top: 16px;
+	right: 20px;
+	z-index:3;
+}
+div#Head.home img#Logo{ top: 25px; }
+div#Head div#SiteLogo{
+	position:absolute;
+	background: url('/image/common/logo_bg.gif');
+	top:0;
+	left:0;
+	height:80px;
+	width:154px;
+}
+div#Head div#SiteLogo img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div#Main{
+	background: #ffffff;
+	color: #444444;
+	width: 1080px;
+	margin: 0 auto;
+	font-size: 1em;
+	border: 1px solid #edebe3;
+  border-top-width:0;
+}
+div#Holder {
+	margin-bottom: 1em;
+	position:relative;
+}
+div#Panel1{
+	padding:0 10px 0 10px;
+	margin:0 0 1em 154px;
+	border-left:1px solid #cccccc;
+	min-height:70em;
+}
+div#Panel1 div#Content{
+	margin-top:1em;
+	z-index:1;
+}
+div#Panel2{
+	position:absolute;
+	top:0;
+	left:0;
+	width:144px;
+	margin-right:10px;
+	text-align:center;
+	background: #ffffff;
+	border-right:1px solid #acc4d4;
+	padding: 0 5px 5px 5px;
+}
+div#Panel2 div {
+	margin-top:0.75em;
+	padding-bottom:0.5em;
+	/*width:145px;*/
+	border-bottom:1px solid #acc4d4;
+}
+div#Panel2 div div{
+	margin:0;
+	width:100%;
+	border:0;
+	padding-bottom:0;
+}
+div#Panel2 a {
+	display:block;
+	padding:0 0 8px 0;
+	margin:0;
+	text-decoration:none;
+}
+div#Panel2 a:hover{ color:#004A8D; }
+div#Panel2 a.nopad {
+	padding-bottom:0;
+}
+div#Panel2 div#FreeTools ul{
+	font-size:0.8em;
+}
+
+div#Panel2 div#UserArea p{
+	padding-bottom:0.75em;
+	margin-bottom:0em;
+}
+div#Panel2 div#UserArea a {
+	display:inline;
+}
+div#Panel2 div#UserArea p span.clientname{
+	font-weight:bold;
+	color:#004A8D;
+	text-transform:uppercase;
+}
+div#Panel2 hr {
+	margin:15px 0 10px 0;
+}
+div#Panel2 ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+div#Panel2 div#AdditionalDataPerspectives ul{ font-size:0.85em; }
+div#Panel2 div#AdditionalDataPerspectives ul li a:hover{ color:#004A8D; }
+
+div#Panel2 div#SideAdverts {
+	background-color:#F2EFDE;
+	border:2px solid #D3D0BE;
+	margin:5px 0;
+	text-align:center;
+	padding-top:5px;
+	width:140px;
+}
+div#Panel2 div#SideAdverts dl{
+	padding:5px 0 0 0;
+	margin:0;
+	border-top:1px solid black;
+}
+div#Panel2 div#SideAdverts dl dd{
+	padding:0;
+	margin:0;
+	font-size:0.6em;
+}
+div#Panel2 div#SideAdverts dl dt{
+	padding:0;
+	margin:0;
+	font-weight:900;
+}
+
+div#Panel2 div#SideAdverts div.propertypost{
+	margin: 8px;
+	text-align: center;
+	width: 128px;
+	font-size:0.6em;
+}
+
+div#Foot {
+	text-align:center;
+	font-size:11px;
+	font-style:normal;
+	padding-top:0.3em;
+}
+
+div#Foot address {
+  font-style:normal !important;
+}
+
+div#Foot ul.menu {
+  margin:0 0 1em 0;
+  padding:0;
+}
+div#Foot ul.menu li {
+  display:inline;
+  list-style:none;
+  margin-right:0.5em;
+  padding-right:0.5em;
+  border-right:0.1em solid #bbb;
+}
+div#Foot ul.menu li.last {
+	margin-right:0;
+  padding-right:0;
+  border-right:0;
+}

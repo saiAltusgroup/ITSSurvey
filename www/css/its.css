@@ -1,0 +1,93 @@
+hr
+{
+	border:1px solid #000000;
+}
+
+blockquote
+{
+
+	margin-left:1.0em;
+}
+
+
+div.its div.bkg
+{
+	background:#FEF1DB;
+	border-width:1px 2px 2px 1px;
+	border-style:solid;
+	padding:1.0em;
+	border-color:#00598E;
+}
+
+div.its table
+{
+	width:auto;
+	margin:0 auto 1em auto;
+	background:#FFF6DE;
+	border-collapse:collapse;
+}
+div.its table td, div.its table th{ text-align:center; }
+
+div.its a{ font-size:1.2em; }
+div.its table a{ font-size:1em; }
+
+div.its tr, div.its td, div.its th
+{
+	border:1px solid #777777;
+	padding:0.4em;
+	/*margin:0.2em;*/
+}
+
+div.its tr.alternate_0
+{
+	background:#FFECD5;
+}
+
+div.its th
+{
+	background:#FFE5CA;
+}
+
+
+/* td { text-align:right; } */
+
+div.its th.head
+{
+	background:#ACBFCE;
+}
+
+div.its th.head2
+{
+	background:#000000;
+	color:#FFFFFF;
+}
+
+
+table.itslayout
+{
+	border:0;
+	border-collapse:collapse;
+	padding:0;
+	vertical-align:top;
+}
+table.itslayout td, table.itslayout th
+{
+	vertical-align:top;
+}
+table.itslayout legend
+{
+	font-size:1.35em;
+}
+table.itslayout select
+{
+	display:block;
+	margin:0.25em 0 1em 0;
+	max-width:90%;
+}
+table.itslayout label
+{
+	font-weight:normal;
+	font-size:0.9em;
+	line-height:1.2em;
+}
+table.itslayout td.formleft, table.itslayout td.formright{ width:50%; }

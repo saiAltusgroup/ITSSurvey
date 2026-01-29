@@ -1,0 +1,29 @@
+html, body {
+	background-color: #ffffff;
+	margin: 5px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.appheader {
+	display: none;
+}
+
+div.footer {
+	display: none;
+}
+
+.reportlink {
+	display: none;
+}
+
+.noprint {
+	display: none;
+}
+
+div.mainlayout {
+	width: 100%;
+	border: none;
+}

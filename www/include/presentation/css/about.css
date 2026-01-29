@@ -1,0 +1,39 @@
+
+
+div#About ol li ol{ list-style:lower-alpha; }
+div#About div#ContentRight dl{}
+div#About div#ContentRight dt{ font-weight:bold; }
+div#About div#ContentRight dd{ margin:0; padding:0 0 1em 0; }
+div#About div#Content{ background:#ffffff; }
+div#About div#ContentLeft{ width:20%; float:left; }
+div#About div#ContentRight{ width:78%; float:right; padding-right:1%; }
+div#About table{
+	width:100%;
+	border-collapse: collapse;
+	font-size:0.8em;
+	border: 1px solid #777777;
+}
+div#About table tr th{
+	border: 1px solid #777777;
+	background:#FFE5CA;
+	font-weight:bold;
+	text-align:center;
+	vertical-align:top;
+	padding:5px;
+}
+div#About table tr.head th{
+	background:#ACBFCE;
+}
+div#About table tr td{
+	border: 1px solid #777777;
+	background:#FFF6DE;
+	padding:5px;
+}
+div#About table a.footnote{
+	text-decoration:none;
+}
+div#About p.download{
+	text-align:right;
+}
+
+/* ------------------------------------------------------------------------------------- */

@@ -1,0 +1,127 @@
+#topbar {
+  padding:0.5em 0;
+	background:#6e99d4;
+  color:#fefcf9;
+}
+#topbar ul.menu {
+	margin:0;
+  padding:0;
+  text-align:right;
+}
+#topbar ul.menu li {
+  display:inline;
+  list-style:none;
+  padding:0.5em 1em;
+  border-right:0.1em solid #9ab8e1;
+}
+#topbar ul.menu li.last {
+  border-right:0;
+}
+#topbar ul.menu li a {
+	color:#fefcf9;
+}
+
+ul#TopMenu{
+	text-align:right;
+	padding:0.3em 0 0.3em 10px;
+	margin:0 0 0 0;
+	background-color:#ffffff;
+	font-size:1.1em;
+	font-weight:bold;
+}
+ul#TopMenu li{
+	display:inline;
+	padding:0.2em 0 0.4em 0;
+	margin:0;
+	position:relative;
+	height:2em; /*do not remove IE will Freak Out */
+}
+ul#TopMenu li a em{
+	font-style:normal;
+	text-decoration:underline;
+}
+ul#TopMenu li a{
+	color:#004A8D;
+	text-decoration:none;
+	padding:0 5px;
+	border-left:1px solid #acc4d4;
+	position:relative;
+	height: 1%;
+	font-weight:normal;
+}
+ul#TopMenu li.first a{
+	border-left:0;
+}
+ul#TopMenu li a:hover{
+	color:#3F3F3F;
+	text-decoration:underline;
+}
+ul#TopMenu li.first a{
+	border-left:0;
+}
+ul#TopMenu li div{
+	width:18em;
+	padding-top:5px;
+	text-align:left;
+	display:none;
+	z-index:-1;
+	position:absolute;
+	top:-99999px;
+	left:0;
+}
+ul#TopMenu li div ul{
+	margin:0;
+	padding:0;
+	background:#ffffff;
+	border:1px solid #cccccc;
+}
+ul#TopMenu li div ul li{
+	display:block;
+	margin:0;
+	padding:0 5px;
+	border-left:0;
+	background: url('/image/common/topmenu_li_bg.gif') bottom left repeat-x transparent;
+}
+ul#TopMenu li div ul li a{
+	color:#999999;
+	margin:0;
+	line-height:2em;
+	padding:0 5px;
+	border:0;
+	display:block;
+}
+ul#TopMenu li div ul li.last{
+}
+ul#TopMenu li div ul li a:hover{
+	background-color:transparent;
+}
+ul#TopMenu li:hover,
+ul#TopMenu li.over{ }
+ul#TopMenu li:hover div,
+ul#TopMenu li.over div{ display:block; z-index:20; top:1.3em;}
+div#SideMenu {
+	width:137px;
+	padding-left:8px;
+}
+div#SideMenu ul{
+	font-size:0.95em;
+	text-align:left;
+}
+div#SideMenu ul li ul{ margin-left:0; }
+div#SideMenu ul li{
+	padding:3px 0;
+	margin:0;
+	display:none;
+	font-weight:bold;
+}
+div#SideMenu ul li.selected{	display:block; }
+div#SideMenu ul li.selected li{ 	display:block; font-weight:normal;}
+div#SideMenu ul li a{
+	padding:0;
+	margin:0;
+}
+div#SideMenu ul li em{
+	color:#004A8D;
+	text-decoration:underline;
+	font-style:normal;
+}

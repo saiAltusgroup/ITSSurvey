@@ -1,0 +1,11 @@
+form fieldset{
+	margin:8px;
+	position:relative;
+	padding:1.4em 8px 8px 8px;
+}
+form fieldset legend{
+	position:absolute;
+	left:1em;
+	top:-0.7em;
+	background:transparent;
+}

@@ -1,0 +1,724 @@
+html, body {
+				color:#4e4e4e;
+				background-color: #f6f5f1;
+				margin: 0;
+				font-family: Arial, sans-serif;
+
+}
+
+
+
+img {
+				border: none;
+}
+
+noscript {
+				background-color: #ff2;
+
+				font-weight: bold;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+.textcenter {
+					text-align: center;
+}
+
+.textleft {
+					text-align: left;
+}
+
+.objcenter {
+					margin-left: auto;
+					margin-right: auto;
+}
+
+div.clearboth {
+					clear: both;
+					height: 1px;
+}
+
+.note {
+
+					margin-top: 0.3em;
+					margin-bottom: 0.2em;
+}
+
+.fineprint {
+
+					text-align: center;
+					margin-top: 0.1em;
+					margin-bottom: 0.1em;
+}
+
+button.userdelete {
+
+					color: #c00;
+					background-color: #ccc;
+					text-align: center;
+					padding: 0;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+img.photo {
+				margin-right: 10px;
+				margin-bottom: 10px;
+}
+
+img.photo,
+img.siteplan {
+				border: 1px solid #000;
+}
+
+a.reportlink {
+
+}
+
+a.standalonelink {
+
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+h1.propertyoverview {
+						float: left;
+						margin-top: 0.5em;
+						margin-bottom: 0.3em;
+						text-align: left;
+}
+
+h2.propertyoverview {
+						margin-top: 0.3em;
+						padding-top: 0.4em;
+						border-top: solid 3px #ccc;
+}
+
+p.verified {
+						float: right;
+						margin-top: 1.5em;
+						margin-bottom: 0.3em;
+
+}
+
+h3.report_title {
+						text-align: center;
+						color: #006699;
+
+						font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+
+/* these two, the h1 and the h2 have been designed to be used together */
+table.searchpage h1 {
+							color: #507969;
+							margin-top: 0.5em;
+							margin-bottom: 0;
+							text-align: right;
+							padding-right: 20px;
+							padding-bottom: 2px;
+							border-bottom: solid 1px #000;
+}
+
+/* these two, the h1 and the h2 have been designed to be used together */
+table.searchpage h2.subheadspecial {
+							color: #777;
+							margin-top: 0.25em;
+							margin-bottom: 0em;
+							text-align: right;
+							padding-right: 20px;
+}
+
+table.searchpage p.welcome,
+table.searchpage p.intro {
+
+							margin-right: 20px;
+}
+
+.searchpagecontainer {
+							border-left: 1px solid #bbb;
+							padding-left: 6px;
+							padding-right: 6px;
+}
+
+table.searchpage p.welcome {
+							margin-top: 0.2em;
+							font-weight: bold;
+}
+
+table.searchlayout {
+							padding-right: 20px;
+}
+
+.searchlayoutleft {
+							width: 48%;
+							padding-left: 0px;
+							padding-right: 4px;
+}
+
+.searchlayoutright {
+							padding-left: 6px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+
+.relatedform {
+							background-color: #c6dec6;
+
+							border: solid 1px #c6dec6; /* this border appears to rectify a bug with the form height in IE6 and IE7 */
+							padding-bottom: 4px;
+							margin-top: 0px;
+							margin-bottom: 10px;
+}
+
+.relatedform fieldset {
+							margin: 4px;
+							padding: 8px;
+							border: solid 1px #999;
+}
+
+.relatedform legend {
+							color: #255940;
+
+							font-weight: bold;
+}
+
+.relatedform label {
+							display: block;
+}
+
+.relatedform .visualbreak {
+							margin-top: 1.3em;
+}
+
+.relatedform label.checkbox {
+							margin-top: 4px;
+							margin-right: 10px;
+							float: left;
+}
+
+.relatedform p {
+							margin-top: 0.15em;
+}
+
+.relatedform input.search {
+							width: 40%;
+							margin-top: 0.5em;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+.adminform {
+							background-color: #ddd;
+
+							padding-bottom: 4px;
+							margin-top: 0px;
+							margin-bottom: 10px;
+}
+
+.adminform fieldset {
+							margin: 4px;
+							padding: 8px;
+							border: solid 1px #aaa;
+}
+
+.adminform legend {
+							color: #339;
+							font-weight: bold;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+
+.lookupform {
+							background-color: #b3c6dc;
+
+							border: solid 1px #b3c6dc; /* this border appears to rectify a bug with the form height in IE6 and IE7 */
+							padding-bottom: 4px;
+							margin-top: 0px;
+							margin-bottom: 10px;
+}
+
+.lookupform fieldset {
+							margin: 4px;
+							padding: 8px;
+							border: solid 1px #999;
+}
+
+.lookupform legend {
+							color: #365393;
+
+							font-weight: bold;
+}
+
+.lookupform label {
+							display: block;
+}
+
+.lookupform .visualbreak {
+							margin-top: 1.3em;
+}
+
+.lookupform label.checkbox {
+							margin-top: 4px;
+							margin-right: 10px;
+							float: left;
+}
+
+.lookupform p {
+							margin-top: 0.15em;
+}
+
+.lookupform input.search {
+							width: 40%;
+							margin-top: 0.5em;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+.searchform {
+							background-color: #d9d9bb;
+
+							padding-bottom: 4px;
+							border: solid 1px #d9d9bb; /* this border appears to rectify a bug with the form height in IE6 and IE7 */
+							margin-top: 0px;
+							margin-bottom: 10px;
+}
+
+.searchform fieldset {
+							margin: 4px;
+							padding: 8px;
+							border: solid 1px #999;
+}
+
+.searchform legend {
+							color: #454528;
+
+							font-weight: bold;
+}
+
+.searchform fieldset.secondary {
+							padding: 4px;
+}
+
+.searchform fieldset.secondary legend {
+
+}
+
+.searchform fieldset.secondary .novisualbreak {
+							margin-top: 0;
+}
+
+.searchform .smallbreak {
+							margin-top: 12px;
+}
+
+.searchform label {
+							display: block;
+}
+
+.searchform .visualbreak {
+							margin-top: 1.3em;
+}
+
+.searchform label.checkbox,
+.searchform .sidebyside
+{
+							margin-top: 6px;
+							margin-right: 10px;
+							float: left;
+}
+
+.searchform p {
+							margin-top: 0.15em;
+
+}
+.searchform p, .searchform a {  line-height: 1.3em; }
+.searchform p a{  }
+.searchform input.search {
+							width: 40%;
+							margin-top: 0.5em;
+
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+.loginlayout {
+						margin-left: auto;
+						margin-right: auto;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+.appheader {
+						background: url(../images/h-back.jpg);
+						height: 83px;
+						padding-right: 20px;
+						text-align: right;
+						position: relative;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+.navheader {
+
+						font-weight: bold;
+						color: #fff;
+						margin-bottom: 3px;
+						bottom: 0px;
+						right: 20px;
+						position: absolute;
+}
+
+.navheader a {
+						color: #d4d4d4;
+						text-decoration: none;
+}
+
+.navheader a:hover {
+						color: #d4d4d4;
+						text-decoration: underline;
+}
+
+.navheader a:focus {
+						color: #d4d4d4;
+						text-decoration: underline;
+}
+
+.navheader a:active {
+						color: #eee;
+						text-decoration: underline;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+table.mainlayout {
+						margin-left: auto;
+						margin-right: auto;
+						background-color: #fff;
+						border-left: solid 1px #ccc;
+						border-right: solid 1px #ccc;
+						border-bottom: solid 1px #ccc;
+}
+
+div.mainlayout {
+						margin-left: auto;
+						margin-right: auto;
+						background-color: #fff;
+						border-left: solid 1px #ccc;
+						border-right: solid 1px #ccc;
+						border-bottom: solid 1px #ccc;
+}
+
+div.pagecontent {
+						margin-left: 20px;
+						margin-right: 20px;
+}
+
+div.pagecontentsearch {
+						margin-top: 0;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+div.logosplash {
+					margin-left: 20px;
+					margin-right: 20px;
+					padding-bottom: 6px;
+
+					border-bottom: solid 1px #888;
+}
+
+div.logosplash p {
+					margin-left: 20px;
+					margin-top: 0em;
+}
+
+div#logo {
+					position: absolute;
+					top: 0px;
+					left: 0px;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+div.parameters {
+					padding: 3px 8px;
+					padding-bottom: 8px;
+
+					background-color: #fff;
+					border-bottom: solid 1px #aaa;
+}
+
+div.parameters p {
+					margin-top: 0em;
+					margin-bottom: 0em;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+div.moreinfo {
+					padding: 3px 12px;
+
+					background-color: #f6f6f6;
+					border-top: solid 2px #e6e6e6;
+}
+
+div.moreinfo p,
+div.moreinfo form {
+					margin-top: 0em;
+					margin-bottom: 0em;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+div.footer {
+					margin-left: 20px;
+					margin-right: 20px;
+					margin-bottom: 0.75em;
+					padding-top: 12px;
+					border-top: solid 1px #888;
+}
+
+div.footer p {
+					margin-left: 20px;
+					margin-top: 0em;
+}
+
+div.footer img.pfv {
+					margin-right: 10px;
+}
+
+div.footer img.pdf {
+					margin-left: 8px;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+.resultsline {
+							font-weight: bold;
+
+}
+
+.infoline {
+
+}
+
+table.buildingdetail {
+
+}
+
+table.buildingdetail th {
+							padding-right: 0.3em;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+table.userlist {
+
+							border: none;
+							border-collapse: separate;
+							border-spacing: 2px;
+							width: 100%;
+}
+
+table.userlist tr.header {
+							background-color: #e6e6e6;
+}
+
+table.userlist tr.one {
+							background-color: #eee;
+}
+
+table.userlist tr.two {
+							background-color: #f5f5f5;
+}
+
+table.userlist th,
+table.userlist td {
+							text-align: left;
+							padding: 2px;
+							padding-left: 6px;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+
+table.buildingresults {
+
+}
+
+table.buildingresults tr.header {
+									background-color: #e6e6e6;
+}
+
+table.buildingresults tr.one {
+									background-color: #eee;
+}
+
+table.buildingresults tr.two {
+									background-color: #f5f5f5;
+}
+
+table.buildingresults th {
+									padding-left: 3px;
+									padding-right: 3px;
+}
+
+table.buildingresults td {
+									padding-left: 2px;
+									padding-right: 7px;
+}
+
+table.buildingresults td.divisionheader {
+									padding-top: 7px;
+									padding-bottom: 7px;
+									font-weight: bold;
+
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+ul.top25list  {
+									margin-left: 0;
+									margin-right: 0;
+									padding-left: 5em;
+									padding-right: 5em;
+									text-align: left;
+
+									line-height: 2.2em;
+}
+
+ul.top25list li {
+									display: inline;
+									list-style-type: none;
+}
+
+ul.top25list a {
+									margin-left: 0.25em;
+									margin-right: 0.25em;
+									padding-top: 0.1em;
+									padding-bottom: 0.3em;
+									padding-left: 0.2em;
+									padding-right: 0.3em;
+									border-left: 3px solid #eee;
+									background-color: #eee;
+}
+
+ul.top25list a:hover {
+									border-left: 3px solid #bbb;
+}
+
+
+/* ------------------------------------------------------------------------------------- */
+
+
+table.marketdimensions {
+
+									border-bottom: 1px solid #777;
+									border-right: 1px solid #777;
+}
+
+table.marketdimensions th,
+table.marketdimensions td {
+									border-top: 1px solid #777;
+									border-left: 1px solid #777;
+}
+
+
+div.marketdimensionscontainer {
+									background-color: #ffe5ca;
+									padding: 4px;
+}
+
+table.marketdimensions tr.header {
+									background-color: #ffe5ca;
+}
+
+table.marketdimensions tr.one {
+									background-color: #ffecd5;
+}
+
+table.marketdimensions tr.two {
+									background-color: #fff6de;
+}
+
+table.marketdimensions h2 {
+
+									margin: 0px;
+}
+
+
+
+/* ------------------------------------------------------------------------------------- */
+
+div#Sidelinks {
+
+                                    padding:5px;
+                                    text-align:center;
+                                    /*width:140px;*/
+																		font-size:0.9em;
+}
+div#Sidelinks img {
+                                    border:0;
+}
+div#Sidelinks a {
+                                    display:block;
+                                    padding:0 0 8px 0;
+                                    margin:0;
+}
+div#Sidelinks a.nopad {
+                                    padding-bottom:0;
+}
+div#Sidelinks div {
+                                    padding:5px 20px;
+}
+div#Sidelinks hr {
+                                    margin:15px 0 10px 0;
+}
+div#Sidelinks p {
+                                    font-weight:900;
+}
+
+div#Sidelinks ul {
+																		list-style:none;
+																		padding:0;
+																		margin:0;
+}
+div#Sidelinks li {
+																		padding:0;
+																		margin:0;
+}
+
+/* ------------------------------------------------------------------------------------- */

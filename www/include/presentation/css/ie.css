@@ -1,0 +1,14 @@
+/*@import url('blueprint/ie.css');*/
+ul#TopMenu li{
+	height:2em; /*do not remove IE will Freak Out */
+}
+.clearfix {
+	display: inline-block;
+}
+
+/* Hide from IE Mac \*/
+
+.clearfix {
+	display: block;
+}
+/* End hide from IE Mac */
