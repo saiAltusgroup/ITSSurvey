@@ -1,33 +1,27 @@
 <?php
 // DK - Oct 22, 2008
 
-session_start();
-
 $host = $_SERVER["SCRIPT_NAME"];
 $lang = 'en';
 
-// Redirect to login if not logged in
-require_once('classes/class.User.php');
-$db_array = array('dbtype' => 'mssql', 'server' => _DB_SERVER, 'database' => _DB_DATABASE, 'username' => _DB_USERNAME, 'password' => _DB_PASSWORD);
-$user = new User($db_array);
-if (!$user->IsLoggedIn()) {
-	header('Location: login.php');
-	exit();
-}
+// Load DB constants first
+require_once('sys_include/globals.php');
 
 if (strpos($host, '/fr/') !== false)
 {
 	$lang = 'fr';
 }
 
-// require files
-require_once('sys_include/globals.php');
 require_once('templates/lang.user.' . $lang . '.php');
-
 require_once('classes/class.User.php');
 require_once(_FORMAPI_PATH . 'classes/class.cDB.mssql.php');
 
 $db_array = array('dbtype' => 'mssql', 'server' => _DB_SERVER, 'database' => _DB_DATABASE, 'username' => _DB_USERNAME, 'password' => _DB_PASSWORD);
+$user = new User($db_array);
+if (!$user->IsLoggedIn()) {
+	header('Location: login.php');
+	exit();
+}
 
 $user = new User($db_array);
 
