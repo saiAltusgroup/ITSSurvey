@@ -19,7 +19,7 @@ require_once(_FORMAPI_PATH . 'classes/class.cDB.mssql.php');
 $db_array = array('dbtype' => 'mssql', 'server' => _DB_SERVER, 'database' => _DB_DATABASE, 'username' => _DB_USERNAME, 'password' => _DB_PASSWORD);
 $user = new User($db_array);
 if (!$user->IsLoggedIn()) {
-	header('Location: login.php');
+	header('Location: /login.asp');
 	exit();
 }
 
