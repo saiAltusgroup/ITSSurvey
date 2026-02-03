@@ -4,7 +4,7 @@
 
 session_start();
 
-if (!isset($_SESSION['admin_loggedin'])) { header("Location: admin_login.php"); }
+if (!isset($_SESSION['admin_loggedin'])) { header("Location: admin_login.php"); exit(); }
 
 require_once('sys_include/globals.php');
 require_once('templates/lang.user.en.php');

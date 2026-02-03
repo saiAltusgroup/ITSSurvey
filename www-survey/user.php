@@ -6,6 +6,15 @@ session_start();
 $host = $_SERVER["SCRIPT_NAME"];
 $lang = 'en';
 
+// Redirect to login if not logged in
+require_once('classes/class.User.php');
+$db_array = array('dbtype' => 'mssql', 'server' => _DB_SERVER, 'database' => _DB_DATABASE, 'username' => _DB_USERNAME, 'password' => _DB_PASSWORD);
+$user = new User($db_array);
+if (!$user->IsLoggedIn()) {
+	header('Location: login.php');
+	exit();
+}
+
 if (strpos($host, '/fr/') !== false)
 {
 	$lang = 'fr';
