@@ -1,10 +1,18 @@
+session_start();
+
 <?php
 // DK - Nov 19, 2008
 // BD - Mar 10, 2009
 
+// Start output buffering to prevent accidental output before redirect
+ob_start();
 session_start();
 
-if (!isset($_SESSION['admin_loggedin'])) { header("Location: admin_login.php"); exit(); }
+if (!isset($_SESSION['admin_loggedin'])) {
+	header("Location: admin_login.php");
+	ob_end_clean(); // Discard any output
+	exit();
+}
 
 require_once('sys_include/globals.php');
 require_once('templates/lang.user.en.php');
